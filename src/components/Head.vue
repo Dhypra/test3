@@ -13,7 +13,7 @@
             margin: 0;
           "
         >
-          STOCK {{ area }}
+          STOCK {{ area }} update
         </h1>
       </div>
 
