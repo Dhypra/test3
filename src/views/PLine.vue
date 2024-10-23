@@ -29,7 +29,10 @@
       <span>Fullscreen</span>
     </button>
   </a>
-  <div style="background-color: #e0e0e0;overflow-x: hidden;">
+  <h1 style="text-align: center; background-color: black;position: fixed;color: #ffffff;font-size: 6rem;font-weight: bolder ;z-index: 99;width: 90%;margin: 25% 5%">UNDER CONSTRUCTION</h1>
+  <div style="background-color: #e0e0e0; height: 100vh;
+  filter: blur(5px);
+  ">
     <Head :area="area" />
     <div class="row d-flex">
       <StockChart class="col-12 col-lg-6"/>

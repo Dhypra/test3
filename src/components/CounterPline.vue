@@ -2,7 +2,7 @@
   <div class="text-center" >
     <CCard style="width: 100%;">
       <div class="d-flex flex-row">
-        <div style="height: 27.5vh; width: 100%">
+        <div style="height: 32vh; width: 100%">
           <CListGroup
             style="
               font-size: 2rem;

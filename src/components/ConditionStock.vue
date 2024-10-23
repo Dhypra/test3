@@ -14,7 +14,7 @@
 
       <CCardBody
         style="
-          height: 27vh;
+          height: 32vh;
           font-size: 5rem;
           background-color: #e0e0e0;
           color: black;

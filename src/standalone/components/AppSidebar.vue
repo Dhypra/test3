@@ -110,6 +110,13 @@ export default {
           icon: 'cilStar',
           parentId: 'ROOT',
         },
+        {
+          component: 'CNavItem',
+          name: 'Login',
+          to: '/app/login',
+          icon: 'cilStar',
+          parentId: 'ROOT',
+        },
         // {
         //   component: 'CNavItem',
         //   to: '/qdc/quality-operational',

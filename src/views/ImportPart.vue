@@ -1,7 +1,40 @@
 <template>
-  zz
 
-  <div style="overflow-x: hidden;">
+<a
+    href="#/app/andon/importpart"
+    class="menu-right"
+    style="position: fixed; z-index: 99; right: 0; text-decoration: none"
+  >
+    <button
+      class="fullscreen-btn"
+      v-if="!isFullScreen"
+      @click="toggleFullScreen"
+    >
+      <svg
+        width="24"
+        height="24"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="feather feather-maximize"
+      >
+        <path d="M8 3H5a2 2 0 0 0-2 2v3" />
+        <path d="M16 3h3a2 2 0 0 1 2 2v3" />
+        <path d="M8 21H5a2 2 0 0 1-2-2v-3" />
+        <path d="M16 21h3a2 2 0 0 0 2-2v-3" />
+      </svg>
+      <span>Fullscreen</span>
+    </button>
+  </a>  
+
+  <h1 style="text-align: center; background-color: black;position: fixed;color: #ffffff;font-size: 6rem;font-weight: bolder ;z-index: 99;width: 90%;margin: 25% 5%">UNDER CONSTRUCTION</h1>
+  <div style="background-color: #e0e0e0; height: 100vh;
+  filter: blur(5px);
+  ">
     <Head :area="area" />
     <ModuleStock class="mb-2" :moduleTMC="moduleTMC" :moduleSTM="moduleSTM" :moduleUMWT="moduleUMWT" :moduleTMV="moduleTMV" :stdModule="stdModule" :styleTMC="styleTMC"/>
 <div class="row d-flex">

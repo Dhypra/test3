@@ -9,12 +9,12 @@
           font-weight: bold;
         "
       >
-        <div>Condition Stock In Rack</div>
+        <div>Stock Chart</div>
       </CListGroup>
 
       <CCardBody>
-        <div style="height: 24.5vh">
-          <div style="width: 20rem;height: 10rem" id="chart"></div>
+        <div style="height: 29.5vh;">
+          <div id="chart"></div>
         </div>
       </CCardBody>
     </CCard>
@@ -26,11 +26,13 @@ import ApexCharts from 'apexcharts'
 
 export default {
   name: 'StockChart',
-  component: {},
+  component: {ApexCharts},
   mounted() {
     var options = {
       chart: {
         type: 'bar',
+        height: '200px', // Set the height
+        width: '640px',  // Set the width
       },
       series: [
         {
@@ -38,6 +40,7 @@ export default {
           data: [30, 40, 45],
         },
       ],
+      
       plotOptions: {
           bar: {
             horizontal: false, // Set to true for horizontal bars

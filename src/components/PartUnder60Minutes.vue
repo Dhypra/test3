@@ -29,7 +29,7 @@
           style="overflow: hidden; margin: 0; background-color: #e0e0e0"
         >
           <div
-            class="col-2 h-xl-20"
+            class="col-3 h-xl-20"
             style="
               border-radius: 10px 10px 10px 10px;
               -webkit-border-radius: 10px 10px 10px 10px;
